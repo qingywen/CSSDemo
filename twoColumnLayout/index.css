@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+	
+}
+
+body .wrapper {
+	width: 920px;
+	background: #ffffff !important;
+	margin: 0 auto;
+}
+
+.wrapper section {
+	background: #ffffff;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.wrapper header {
+	background: #424340;
+	height: 60px;
+	line-height: 60px;
+	font-size: 2.6em;
+	padding-left: 20px;
+}
+
+.wrapper article {
+	width: 700px;
+	float: right;
+	display: inline;
+	min-height: 500px;
+}
+
+.wrapper aside {
+	width: 200px;
+	float: left;
+	padding: 20px auto auto 20px;
+	display: inline;
+}
+
+.wrapper aside li {
+	list-style: none;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.wrapper article p {
+	text-indent: 2em;
+}
+
+.wrapper footer {
+	height: 50px;
+	line-height: 50px;
+	background: #a1a1a1;
+	text-align: center;
+	margin-top: 20px;
+}

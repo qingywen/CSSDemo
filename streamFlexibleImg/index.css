@@ -1,0 +1,23 @@
+#branding1 {
+	height: 220px;
+	background: url("sea.jpg") no-repeat left top;
+}
+
+#branding2 {
+	width: 100%;
+	overflow: hidden;
+}
+
+#news img {
+	width: 25%;
+	max-width: 200px;
+	float: left;
+	display: inline;
+	padding: 2%
+}
+
+#news p {
+	width: 68%;
+	float: right;
+	padding: 2% 2% 2% 0;
+}

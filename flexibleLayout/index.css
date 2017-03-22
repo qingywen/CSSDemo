@@ -1,9 +1,8 @@
 .content {
-	width: 67%;
+	width: 92em;
 	margin:0 auto;
 	overflow: hidden;
-	max-width: 125em;
-	min-width: 62em;
+	max-width: 95%;
 }
 
 .content .primary {
@@ -27,5 +26,5 @@
 	width: 34.33%;
 	float: right;
 	display: inline;
-	padding-right: 20px;
+	padding-right: 2em;
 }

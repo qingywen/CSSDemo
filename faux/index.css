@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f1f1f1;
+	
+}
+
+body .wrapper {
+	width: 920px;
+	margin: 0 auto;
+}
+
+.wrapper section {
+	overflow: hidden;
+	background: #fff url("nav-bg-fixed.jpg") repeat-y left top;
+	padding-bottom: 20px;
+}
+
+.wrapper header {
+	background: #424340;
+	height: 60px;
+	line-height: 60px;
+	font-size: 2.6em;
+	padding-left: 20px;
+}
+
+.wrapper article {
+	width: 680px;
+	float: right;
+	display: inline;
+	min-height: 500px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.wrapper aside {
+	background-color: #CACACA;
+	width: 200px;
+	float: left;
+	padding-top: 20px;
+	padding: 40px auto auto 20px;
+	display: inline;
+}
+
+.wrapper aside li {
+	list-style: none;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+.wrapper article p {
+	text-indent: 2em;
+}
+
+.wrapper footer {
+	height: 50px;
+	line-height: 50px;
+	background: #a1a1a1;
+	text-align: center;
+}

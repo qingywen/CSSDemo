@@ -1,0 +1,45 @@
+body {
+	background: #cccccc;
+	padding: 0;
+	margin:0;
+}
+
+.content {
+	width: 67%;
+	margin:0 auto;
+	overflow: hidden;
+	max-width: 125em;
+	min-width: 62em;
+	background: #fff url("nav-bg-fixed-4000.gif") repeat-y 25% 0;
+}
+
+.content .primary {
+	width: 72.8%;
+	float: right;
+	display: inline;
+}
+
+.content .secondary {
+	width: 25%;
+	float: left;
+	display: inline;
+	background: #dddddd;
+}
+
+.content .secondary li {
+	padding-left: 2%;
+	list-style: none;
+}
+
+.content .primary .primary {
+	width: 59.7%;
+	float: left;
+}
+
+.content .primary .secondary {
+	width: 34%;
+	float: right;
+	display: inline;
+	padding: 2%;
+	background: #dddddd;
+}

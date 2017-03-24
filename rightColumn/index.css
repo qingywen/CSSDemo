@@ -1,0 +1,16 @@
+.wrapper {
+	width: 920px;
+	margin: 0 auto;
+	overflow: hidden;
+	border:1px solid green;
+}
+
+.box {
+	width: 30%;
+	padding-bottom: 3000px;
+	margin-bottom: -3000px;
+	margin-left: 2.5%;
+	float: left;
+	display: inline;
+	background: #acacac;
+}

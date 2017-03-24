@@ -22,7 +22,7 @@ CSS模块：
 
 	.col {
 		column-count: 3;
-		column-width: 5em;
+		column-width: 14em;
 		column-gap: 2em;
 		column-rule: 1px solid #ccc;
 	}

@@ -7,7 +7,7 @@
 > `column-count` : 规定列数。
 > 
 > `column-gap` : 规定列之间的间隙。
-
+>
 > `column-rule` : 规定列之间的宽度、样式和颜色。
 
 html模块：

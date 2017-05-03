@@ -1,0 +1,27 @@
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.box {
+	width: 250px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 500px;
+	margin-bottom: -480px;
+	margin-left: 20px;
+	float: left;
+	display: inline;
+	background: yellow;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	height: 20px;
+	width: 290px;
+	background: red;
+	margin-left: -20px;
+}

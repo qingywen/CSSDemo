@@ -10,6 +10,8 @@
 >
 > `column-rule` : 规定列之间的宽度、样式和颜色。
 
+>  支持 ： chrom,firefox,ie(10及以上)
+
 html模块：
 
 	<div class="col">

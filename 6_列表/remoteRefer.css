@@ -1,0 +1,65 @@
+.remote {
+	width: 333px;
+	height: 500px;
+	position: relative;
+}
+
+.remote ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.remote a .hotspot {
+	width: 120px;
+	height: 160px;
+	position: absolute;
+	// border: 1px solid red;
+}
+
+.remote .zhi a .hotspot {
+	left: 110px;
+	top:40px;
+}
+
+.remote .jie a .hotspot {
+	left: 320px;
+	top:40px;
+}
+
+.remote .wei a .hotspot {
+	left: 520px;
+	top:40px;
+}
+
+.remote a .link {
+	position: absolute;
+	display: block;
+	width: 10em;
+	right: -40em;
+	cursor: pointer;
+}
+
+.remote .zhi a .link {
+	top: 0;
+}
+
+.remote .jie a .link {
+	top: 2em;
+}
+
+
+.remote .wei a .link {
+	top: 4em;
+}
+
+.remote a:hover .hotspot,
+.remote a:focus .hotspot {
+	border: 1px solid #fff;
+}
+
+.remote a:hover .link,
+.remote a:focus .link {
+	color: #0066FF;
+}
+

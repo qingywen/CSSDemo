@@ -1,0 +1,44 @@
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input[type=text] {
+	width: 20em;
+}
+
+input[type=radio] {
+	margin-right: 1em;
+}
+
+textarea {
+	width: 100%;
+	height: 10em;
+}
+
+input[type=text]:focus,
+select:focus,
+textarea:focus {
+	background: #ffc;
+}
+
+.required {
+	font-size: 0.8em;
+	color: #760000;
+}
+
+select,option {
+	width: 10em;
+	border-radius: 0.3em;
+}
+.row {
+	margin: 0.5em 0;
+	position: relative;
+}

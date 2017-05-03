@@ -1,0 +1,53 @@
+label {
+	float: left;
+	width: 12em;
+}
+
+input[rel="date"] {
+	width: 4em;
+}
+
+input[rel="year"] {
+	width: 8em;
+}
+
+#monthOfBirthLabel,
+#yearOfBirthLabel {
+	text-indent: -1000em;
+	width: 0;
+}
+
+fieldset#favoriteColor {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: transparent;
+}
+
+#favoriteColor h2 {
+	margin: 0;
+	font-size: 1em;
+	font-weight: normal;
+	float: left;
+	width: 12em;
+}
+
+#favoriteColor .col {
+	width: 8em;
+	float: left;
+	clear: none;
+}
+
+#favoriteColor label {
+	float: none;
+}
+
+.feedback {
+	position: absolute;
+	left: 32em;
+	right: 0;
+	top: 0.2em;
+	font-weight: bold;
+	color: #760000;
+	font-style: normal;
+}

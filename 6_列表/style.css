@@ -1,0 +1,32 @@
+ul.nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 10em;
+	background: #8BD400;
+	border: 1px solid #486B02;
+}
+
+ul.nav a {
+	display: block;
+	color: #2B3F00;
+	text-decoration: none;
+	border-top: 1px solid #e4ffd3;
+	border-bottom: 1px solid #486b02;
+	background: url(hook.png) no-repeat 5% 50%;
+	padding: 0.3em 2em;
+}
+
+ul.nav li:last-child a {
+	border-bottom: 0;
+}
+
+ul.nav a:hover,
+ul.nav .selected a {
+	color: #e4ffd3;
+	background-color: #6da203;
+}
+
+ul.nav li {
+	display: inline
+}

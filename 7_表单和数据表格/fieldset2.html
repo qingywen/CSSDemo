@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="fieldset.css">
+	<link rel="stylesheet" type="text/css" href="fieldset2.css">
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Your Contact Details</legend>
+		<div class="row">
+			<label for="author">Name:<em class="required">(required)</em></label>
+			<input type="text" name="author" id="author">
+		</div>
+		<div class="row">
+			<label for="emial">Email address:<em class="required">(required)</em><em class="feedback">Incorect emial address.Please try again</em></label>
+			<input type="text" name="emial" id="emial">
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Remember Me</legend>
+		<div class="row">
+			<label for="remember-yes">
+				<input type="radio" name="remember" checked="checked" value="yes" id="remember-yes">Yes
+			</label>
+		</div>
+		<div class="row">
+			<label for="remember-no">
+				<input type="radio" name="remember" value="yes" id="remember-no">No
+			</label>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Comments</legend>
+		<div class="row">
+			<label for="comm">Messsages:</label>
+			<textarea name="comm" id="comm"></textarea>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Personal information</legend>
+		<div class="row">
+			<label for="place">Place of birth:</label>
+			<select name="place" id="place">
+				<option>USA</option>
+				<option>English</option>
+				<option>China</option>
+			</select>
+		</div>
+		<div class="row">
+			<label for="dateOfBirth">Date of birth:</label>
+			<input type="text" name="dateOfBirth" id="dateOfBirth" rel="date">
+			<label for="monthOfBirth" id="monthOfBirthLabel">Month of birth:</label>
+			<select name="monthOfBirth" id="monthOfBirth">
+				<option>January</option>
+				<option>March</option>
+				<option>Apirl</option>
+			</select>
+			<label for="yearOfBirth" id="yearOfBirthLabel">Year of birth:</label>
+			<input type="text" name="yearOfBirth" id="yearOfBirth" rel="year">
+		</div>
+		<div class="row">
+			<fieldset id="favoriteColor">
+				<h2>Favorite Color:</h2>
+				<div class="col">
+					<div>
+						<label><input type="checkbox" name="color" id="red" class="checkbox" value="red">red</label>
+						<label><input type="checkbox" name="color" id="yellow" class="checkbox" value="yellow">yellow</label>
+						<label><input type="checkbox" name="color" id="pink" class="checkbox" value="pink">pink</label>
+						<label><input type="checkbox" name="color" id="green" class="checkbox" value="green">green</label>
+					</div>
+				</div>
+				<div class="col">
+					<div>
+						<label><input type="checkbox" name="color" id="orange" class="checkbox" value="orange">orange</label>
+						<label><input type="checkbox" name="color" id="purple" class="checkbox" value="purple">purple</label>
+						<label><input type="checkbox" name="color" id="blue" class="checkbox" value="blue">blue</label>
+						<label><input type="checkbox" name="color" id="other" class="checkbox" value="other">other</label>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+	</fieldset>
+</form>
+</body>
+</html>

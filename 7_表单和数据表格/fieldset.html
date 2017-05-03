@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="fieldset.css">
+</head>
+<body>
+<form>
+	<fieldset>
+		<legend>Your Contact Details</legend>
+		<div>
+			<label for="author">Name:<em class="required">(required)</em></label>
+			<input type="text" name="author" id="author">
+		</div>
+		<div>
+			<label for="emial">Email address:<em class="required">(required)</em></label>
+			<input type="text" name="emial" id="emial">
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Remember Me</legend>
+		<div>
+			<label for="remember-yes">
+				<input type="radio" name="remember" checked="checked" value="yes" id="remember-yes">Yes
+			</label>
+		</div>
+		<div>
+			<label for="remember-no">
+				<input type="radio" name="remember" value="yes" id="remember-no">No
+			</label>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Comments</legend>
+		<div>
+			<label for="comm">Messsages:</label>
+			<textarea name="comm" id="comm"></textarea>
+		</div>
+	</fieldset>
+</form>
+</body>
+</html>
